@@ -1,0 +1,5 @@
+<div *ngFor="let bulletin of bulletin">
+    {{bulletin.id}}
+    {{bulletin.name}}
+<button (click)="ondelete(bulletin._id)">Delete</button>
+</div>
